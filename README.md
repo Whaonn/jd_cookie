@@ -1,4 +1,4 @@
- # jd_cookie
+ # jd_cookie    有效期1-2月 自行测试
 
 ~~~
 docker run -d --name jd_cookie -p 6789:6789 whaonn/jd_cookie:latest
@@ -12,3 +12,5 @@ docker run -d --name jd_cookie -p 6789:6789 whaonn/jd_cookie:latest
 
 #示例 docker run -d --name jd_cookie -p 6789:6789 -e QYWX_KEY=xxx -e QYWX_AM=xxx -e UPDATE_API=http://ip:5678/updateCookie whaonn/jd_cookie:latest
 ~~~
+
+## 
