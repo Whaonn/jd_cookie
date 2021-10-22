@@ -12,5 +12,10 @@ docker run -d --name jd_cookie -p 6789:6789 whaonn/jd_cookie:latest
 
 #示例 docker run -d --name jd_cookie -p 6789:6789 -e QYWX_KEY=xxx -e QYWX_AM=xxx -e UPDATE_API=http://ip:5678/updateCookie whaonn/jd_cookie:latest
 ~~~
-
+## 方法二
+~~~
+- docker-compose.yml 修改相关配置
+- docker-compose up -d
+~~~
 ## <a href="https://t.me/joinchat/1O91g5PT2Fg4YTgx">订阅频道</a>
+##<a href="https://t.me/joinchat/BHOvEFvjPOM2OWJh">讨论群组</a>
