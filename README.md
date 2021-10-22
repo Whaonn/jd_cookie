@@ -18,4 +18,4 @@ docker run -d --name jd_cookie -p 6789:6789 whaonn/jd_cookie:latest
 - docker-compose up -d
 ~~~
 ## <a href="https://t.me/joinchat/1O91g5PT2Fg4YTgx">订阅频道</a>
-##<a href="https://t.me/joinchat/BHOvEFvjPOM2OWJh">讨论群组</a>
+## <a href="https://t.me/joinchat/BHOvEFvjPOM2OWJh">讨论群组</a>
