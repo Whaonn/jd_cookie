@@ -1,12 +1,11 @@
-version: "3"
+version: '2.0'
 services:
   jd_cookie:
     image: whaonn/jd_cookie
-    build: ./
+    container_name: jd_cookie
     restart: always
     ports:
-    - "6789:6789"
-    container_name: jd_cookie
+      - 1234:6789
     environment:
       - QYWX_AM=
-      - UPDATE_API=http://京东服务器接口
+      - UPDATE_API=http://
